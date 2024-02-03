@@ -1,0 +1,10 @@
+{
+    "name": "My Music App",  
+    "short_name": "MusicApp",
+    "description": "An music app",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0000",
+    "theme_color": "#fffff",
+    "orientation": "portrait"
+  }

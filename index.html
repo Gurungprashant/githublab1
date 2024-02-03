@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="manifest" href="manifest.json">
+    <title>My Music App</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>My Music App</h1>
+        <h2>New Song</h2>
+        
+        <form>
+            <label for="songTitle">Title:</label>
+            <input type="text" id="songTitle" required>
+
+            <label for="artistName">Artist:</label>
+            <input type="text" id="artistName" required>
+
+            <button type="button" onclick="addSong()">Add</button>
+        </form>
+
+        <p id="warning" class="hidden">Please enter the title and artist name.</p>
+
+        <div id="songList">
+            <h2>List of Songs</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
